@@ -28,7 +28,8 @@ build() {
 
 package() {
     cd "${srcdir}/ROLLER"
-    install -Dm755 build/roller "$pkgdir"/usr/bin
-	  install -Dm644 images/roller.ico "$pkgdir"/usr/share/pixmaps/roller.ico
+	install -dm757 "$pkgdir"/usr/bin
+    install -m755 build/roller "$pkgdir"/usr/bin
+	install -Dm644 images/roller.ico "$pkgdir"/usr/share/pixmaps/roller.ico
     cp -r midi "$pkgdir"/usr
 }
