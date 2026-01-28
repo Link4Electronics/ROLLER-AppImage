@@ -14,6 +14,7 @@ export DESKTOP=DUMMY
 # Deploy dependencies
 quick-sharun /usr/bin/roller
 cp -r /usr/midi ./AppDir/bin
+echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}/bin' >> ./AppDir/.env
 
 # Additional changes can be done in between here
 
