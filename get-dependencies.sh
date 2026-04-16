@@ -8,6 +8,7 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     cmake      \
+    libcdio    \
     libdecor   \
     sdl3       \
     sdl3_image \
