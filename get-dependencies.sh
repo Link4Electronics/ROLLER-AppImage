@@ -32,7 +32,7 @@ echo "$VERSION" > ~/version
 mkdir -p ./AppDir/bin
 cd ./ROLLER
 mkdir -p build && cd build
-cmake .. -DCMAKE_BUILD_TYPE=Release
+cmake .. -DCMAKE_BUILD_TYPE=Release -Dlibcdio_INCLUDE_DIR=$(pkg-config --variable=includedir libcdio) -Dlibcdio_LIBRARY=$(pkg-config --variable=libdir libcdio)/libcdio.so
 make -j$(nproc)
 mv -v roller ../../AppDir/bin
 cp -rv ../midi ../../AppDir/bin
