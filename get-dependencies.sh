@@ -13,7 +13,7 @@ pacman -Syu --noconfirm \
     sdl3           \
     sdl3_image     \
     shaderc        \
-    vulkan-headers
+    vulkan-headers \
     wildmidi
 
 echo "Installing debloated packages..."
