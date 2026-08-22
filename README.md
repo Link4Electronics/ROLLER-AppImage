@@ -3,7 +3,7 @@
 # ROLLER-AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/ROLLER-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/ROLLER-AppImage/releases/latest)
-[![CI Build Status](https://github.com//pkgforge-dev/ROLLER-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/ROLLER-AppImage/releases/latest)
+[![CI Build Status](https://github.com/pkgforge-dev/ROLLER-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/ROLLER-AppImage/releases/latest)
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/ROLLER-AppImage)](https://github.com/pkgforge-dev/ROLLER-AppImage/releases/latest)
 
 <p align="center">
