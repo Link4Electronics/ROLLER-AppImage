@@ -9,7 +9,6 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
     cmake          \
     libcdio        \
-    sdl3           \
     sdl3_image     \
     shaderc        \
     vulkan-headers \
